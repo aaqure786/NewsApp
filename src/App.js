@@ -1,14 +1,14 @@
 import Navbar from "./Components/Navbar.js";
-import NewsItems from "./Components/NewsItems.js";
+import New from "./Components/New.js";
+
 
 
 function App() {
   return (
     <>
       <Navbar/>
-      <div className="container">
-      <NewsItems/>
-      </div>
+      <New/>
+      
     </>
   );
 }
