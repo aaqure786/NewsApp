@@ -1,16 +1,18 @@
-import Navbar from "./Components/Navbar.js";
-import New from "./Components/New.js";
+// import logo from './logo.svg';
+import './App.css';
+import React, { Component } from 'react'
+import NavBar from './Component/NavBar';
+import News from './Component/News';
 
-
-
-function App() {
-  return (
-    <>
-      <Navbar/>
-      <New/>
-      
-    </>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <NavBar/>
+        <News/>
+      </div>
+    )
+  }
 }
 
-export default App;
+
