@@ -3,11 +3,11 @@ import logo from './loading.gif'
 export class Spiner extends Component {
   render() {
     return (
-      <div className="text-center">
-        <img src={logo} alt="Loading..."/>
-    </div>
+      <>
+        <img src={logo} alt="Loading..." className="text-center" style={{paddingTop: '20%'}}/>
+      </>
     )
   }
 }
 
-export default Spiner
+export default Spiner;
