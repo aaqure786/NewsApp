@@ -40,7 +40,7 @@ export default class App extends Component {
 
             <Route
               exact
-              path="/general"
+              path="/"
               element={
                 <News
                   key="general"
