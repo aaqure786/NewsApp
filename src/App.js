@@ -1,12 +1,11 @@
 // import logo from './logo.svg';
 import "./App.css";
-import React, { Component } from "react";
+import React from "react";
 import NavBar from "./Component/NavBar";
 import News from "./Component/News";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-export default class App extends Component {
-  render() {
+const App = () =>  {
     return (
       <div>
         <Router>
@@ -102,5 +101,7 @@ export default class App extends Component {
         </Router>
       </div>
     );
-  }
+  
 }
+
+export default App
